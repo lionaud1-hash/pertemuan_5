@@ -1,0 +1,99 @@
+
+/* CSS untuk Navbar Hasil mengkuti Vidoo dan lainya aku tambaahkan dengan pikiran saya dan
+menggunakan w3schools */
+
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+div img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+nav{
+    background-color: #333;
+    color: #fff;
+    padding: 10px ;
+    display: flex;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease;
+    font-weight: 600;padding: 8px 12px;
+    border-radius: 4px;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid transparent #ff6347;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid #ff6347;
+    color: #ff6347;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+
+/* Menu Login dan Register Hanya dari pikiran saya dan tiru lewat w3schools */
+menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+menu li{
+    margin: 0 15px;
+    padding-inline: 10px;
+}
+
+menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease;
+    font-weight: 600;padding: 8px 12px;
+    border-radius: 4px;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid transparent #0f9120;
+}
+
+menu li a:hover{
+    border-bottom: 1px solid #0f9120;
+    color: #0f9120;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+

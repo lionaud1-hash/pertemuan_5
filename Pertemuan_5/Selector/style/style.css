@@ -1,0 +1,73 @@
+/* Selector Universal atau selector seluruhnya */
+*{
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;    
+}
+
+/* Selector Element */
+body{
+    color: rgb(0, 0, 0);
+    background: #212121;
+}
+
+header{
+    border-radius: 50px;
+    align-items: center;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #454565;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    /* align-items: center; */
+    padding: 20px;
+    
+}
+
+p{
+    background: #467346;
+    border-radius: 50px;
+    color: white;
+    /* align-items: center; */
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+   
+}
+ /* Selector Clas  */
+
+.wala{
+    color: white;
+}
+
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mari{
+    text-align: center;
+    margin-top: 25px;
+    background: #435443;
+    border-radius: 25px;
+}
+ 
+/* Selectro id  */
+
+div{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+#github{
+    background-color: #435446;
+    text-decoration: none;
+    border-radius: 50px;
+    color: whitesmoke;
+    padding: 10px 20px;
+}
+
+
+
+
